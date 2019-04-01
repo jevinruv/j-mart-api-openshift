@@ -10,7 +10,7 @@ public class JMartApiApplication {
         SpringApplication.run(JMartApiApplication.class, args);
     }
 
-/*    @Bean
+    @Bean
     public CorsFilter corsFilter() {
         final UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         final CorsConfiguration config = new CorsConfiguration();
@@ -20,5 +20,5 @@ public class JMartApiApplication {
         config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "OPTIONS", "DELETE", "PATCH"));
         source.registerCorsConfiguration("/**", config);
         return new CorsFilter(source);
-    }*/
+    }
 }
