@@ -20,7 +20,7 @@ public class DiscountController {
     @GetMapping
     //@PreAuthorize("hasRole('USER') or hasRole('ADMIN')")
     public String getAll(){
-        return "Hii Jevein";
+        return "Hii Jevin";
     }
 
     @GetMapping("/{id}")
