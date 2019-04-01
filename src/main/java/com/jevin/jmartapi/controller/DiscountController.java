@@ -19,8 +19,8 @@ public class DiscountController {
 
     @GetMapping
     //@PreAuthorize("hasRole('USER') or hasRole('ADMIN')")
-    public List<Discount> getAll(){
-        return repo.findAll();
+    public String getAll(){
+        return "Hii Jevein";
     }
 
     @GetMapping("/{id}")
